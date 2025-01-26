@@ -1,9 +1,19 @@
-<script setup>
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
-
 <template>
   <main>
-    <TheWelcome />
+    <conversion-calculator/>
   </main>
 </template>
+
+<script>
+import conversionCalculator from '../components/ConversionCalculator.vue';
+
+export default {
+  components: {
+    conversionCalculator
+  }
+}
+</script>
+
+<style scoped>
+
+</style>
