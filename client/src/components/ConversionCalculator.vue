@@ -9,5 +9,7 @@
 </script>
 
 <style scoped>
-
+.content-box {
+    margin-bottom: 1.5rem;
+   }
 </style>

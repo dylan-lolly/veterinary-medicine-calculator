@@ -31,14 +31,21 @@
 }
 
 body{
-  color: var(--white-green);
-  background-color: var(--black-eerie);
+  color: var(--black-night);
+  background-color: var(--green-light);
   min-height: 100vh;
 }
 
 a {
-  color: var(--green-light);
+  color: var(--green-dark);
   text-decoration: none;
+}
+
+a:hover {
+  color: var(--blue-light);
+  border-radius: 2px;
+  background-color: var(--green-dark);
+  padding: 2px 3px;
 }
 
 /* img {
