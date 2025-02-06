@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main id="home">
     <description-disclaimer/>
     <conversion-calculator/>
     <calculator-history/>
@@ -21,16 +21,5 @@ export default {
 </script>
 
 <style scoped>
-main {
-  margin: 0 auto;
-  margin-top: 3rem;
-  text-align: center;
-}
 
-.content-box {
-  background-color: var(--green);
-  border: var(--green-dark) solid 3px;
-  border-radius: 8px;
-  padding: 1rem;
-}
 </style>

@@ -1,11 +1,17 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <main id="about">
+    <description-disclaimer/>
+  </main>
 </template>
 
 <script>
+import descriptionDisclaimer from '../components/DescriptionDisclamer.vue';
 
+export default {
+  components: {
+    descriptionDisclaimer,
+  }
+}
 </script>
 
 <style scoped>

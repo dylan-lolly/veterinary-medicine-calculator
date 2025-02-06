@@ -18,6 +18,7 @@
   --green: #489982;
   --green-light: #9BD4BF;
   --green-dark: #204639;
+  --green-dark-soft: #20463917;
 
   --red: #632B32;
 }
@@ -42,10 +43,7 @@ a {
 }
 
 a:hover {
-  color: var(--blue-light);
-  border-radius: 2px;
-  background-color: var(--green-dark);
-  padding: 2px 3px;
+  color: var(--green-light);
 }
 
 /* img {
